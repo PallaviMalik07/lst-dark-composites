@@ -1,0 +1,19 @@
+{
+  "title": "lst-dark-composites: code for 'Dark composites are unrecoverable: an identifiability limit on gap-filling of MODIS land surface temperature'",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Python code and Google Earth Engine export script reproducing all results of the paper: gap statistics, hold-out experiments and remedies for dark MODIS LST composites at five Indian tiles (2015-2025).",
+  "creators": [
+    {
+      "name": "Malik, Pallavi",
+      "affiliation": "Department of Mathematics, University of Engineering and Management, Jaipur, India",
+      "orcid": "0000-0003-0327-3648"
+    },
+    {
+      "name": "Chauhan, Shivam",
+      "affiliation": "Department of Civil Engineering, University of Engineering and Management, Jaipur, India"
+    }
+  ],
+  "keywords": ["land surface temperature", "MODIS", "matrix completion", "identifiability", "gap-filling"]
+}
