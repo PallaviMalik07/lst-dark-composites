@@ -9,11 +9,11 @@
 // *_err = MODIS LST error class, QC bits 6-7 (0: <=1 K, 1: <=2 K, 2: <=3 K, 3: >3 K).
 
 var TILES = {
-  thar_arid:       ee.Geometry.Rectangle([71.1735, 26.9045, 71.8293, 27.4884]),
-  deccan_semiarid: ee.Geometry.Rectangle([77.3000, 17.0051, 77.9019, 17.5890]),
-  bandhavgarh:     ee.Geometry.Rectangle([80.7136, 23.4101, 81.3514, 23.9940]),
-  ne_humid:        ee.Geometry.Rectangle([92.4816, 25.9074, 93.1283, 26.4913]),
-  konkan_coastal:  ee.Geometry.Rectangle([72.9971, 16.6098, 73.6080, 17.1938])
+  thar_arid:       ee.Geometry.Rectangle([71.1758, 26.9068, 71.8270, 27.4862]),
+  deccan_semiarid: ee.Geometry.Rectangle([77.3023, 17.0074, 77.8997, 17.5868]),
+  bandhavgarh:     ee.Geometry.Rectangle([80.7159, 23.4123, 81.3492, 23.9918]),
+  ne_humid:        ee.Geometry.Rectangle([92.4838, 25.9097, 93.1261, 26.4891]),
+  konkan_coastal:  ee.Geometry.Rectangle([72.9993, 16.6121, 73.6057, 17.1915])
 };
 var YEARS = ee.List.sequence(2015, 2025).getInfo();
 var FOLDER = 'lst_dark_composites';
